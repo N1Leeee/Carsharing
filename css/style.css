@@ -237,6 +237,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.rent-item:hover{
+    transform: scale(1.25);
 }
 
 .rent-item-num{
